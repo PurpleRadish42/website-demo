@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Number</title>
+</head>
+<body>
+    <h1>Enter a Number</h1>
+    <form action="{{ url_for('result') }}" method="get">
+        <label for="number">Number:</label>
+        <input type="text" name="number" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
